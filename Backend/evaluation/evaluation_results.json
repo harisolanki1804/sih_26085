@@ -1,0 +1,480 @@
+{
+  "generated_at": "2026-09-18T13:02:07",
+  "split": "train 1-32, calibrate 33-38, test 39-72 (frozen time-based split)",
+  "status": "superseded by four_family_evaluation_results.json",
+  "authoritative_report": "four_family_evaluation_results.json",
+  "nowcast_report": "nowcast_accuracy.json",
+  "note": "This file previously held a standalone metric set from an earlier evaluation revision and split. The four-family report is now the single source of truth for headline metrics; its contents are embedded below for convenience and are regenerated, not hand-kept.",
+  "four_family": {
+    "split": {
+      "type": "frozen_time_based",
+      "description": "train 1-32, calibrate 33-38, test 39-72 (frozen time-based split)",
+      "train_timesteps_range": "1 to 32",
+      "calibrate_timesteps_range": "33 to 38",
+      "test_timesteps_range": "39 to 72",
+      "test_timesteps": 34
+    },
+    "family1_classification": {
+      "Flood": {
+        "+2h": {
+          "POD": 80.0,
+          "FAR": 42.9,
+          "CSI": 50.0,
+          "Accuracy": 88.2,
+          "TP": 4,
+          "FP": 3,
+          "FN": 1,
+          "TN": 26,
+          "positives": 5,
+          "undefined_reason": null,
+          "defined": true
+        },
+        "+4h": {
+          "POD": 100.0,
+          "FAR": 57.1,
+          "CSI": 42.9,
+          "Accuracy": 88.2,
+          "TP": 3,
+          "FP": 4,
+          "FN": 0,
+          "TN": 27,
+          "positives": 3,
+          "undefined_reason": null,
+          "defined": true
+        },
+        "+6h": {
+          "POD": 100.0,
+          "FAR": 66.7,
+          "CSI": 33.3,
+          "Accuracy": 88.2,
+          "TP": 2,
+          "FP": 4,
+          "FN": 0,
+          "TN": 28,
+          "positives": 2,
+          "undefined_reason": null,
+          "defined": true
+        }
+      },
+      "Lightning": {
+        "+2h": {
+          "POD": null,
+          "FAR": null,
+          "CSI": null,
+          "Accuracy": 100.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 34,
+          "positives": 0,
+          "undefined_reason": "no positive events and no positive predictions in window",
+          "defined": false
+        },
+        "+4h": {
+          "POD": null,
+          "FAR": null,
+          "CSI": null,
+          "Accuracy": 100.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 34,
+          "positives": 0,
+          "undefined_reason": "no positive events and no positive predictions in window",
+          "defined": false
+        },
+        "+6h": {
+          "POD": null,
+          "FAR": null,
+          "CSI": null,
+          "Accuracy": 100.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 34,
+          "positives": 0,
+          "undefined_reason": "no positive events and no positive predictions in window",
+          "defined": false
+        }
+      },
+      "Wind": {
+        "+2h": {
+          "POD": 100.0,
+          "FAR": 50.0,
+          "CSI": 50.0,
+          "Accuracy": 58.8,
+          "TP": 14,
+          "FP": 14,
+          "FN": 0,
+          "TN": 6,
+          "positives": 14,
+          "undefined_reason": null,
+          "defined": true
+        },
+        "+4h": {
+          "POD": 100.0,
+          "FAR": 53.6,
+          "CSI": 46.4,
+          "Accuracy": 55.9,
+          "TP": 13,
+          "FP": 15,
+          "FN": 0,
+          "TN": 6,
+          "positives": 13,
+          "undefined_reason": null,
+          "defined": true
+        },
+        "+6h": {
+          "POD": 100.0,
+          "FAR": 59.3,
+          "CSI": 40.7,
+          "Accuracy": 52.9,
+          "TP": 11,
+          "FP": 16,
+          "FN": 0,
+          "TN": 7,
+          "positives": 11,
+          "undefined_reason": null,
+          "defined": true
+        }
+      },
+      "Heat": {
+        "+2h": {
+          "POD": null,
+          "FAR": null,
+          "CSI": null,
+          "Accuracy": 100.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 34,
+          "positives": 0,
+          "undefined_reason": "no positive events and no positive predictions in window",
+          "defined": false
+        },
+        "+4h": {
+          "POD": null,
+          "FAR": null,
+          "CSI": null,
+          "Accuracy": 100.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 34,
+          "positives": 0,
+          "undefined_reason": "no positive events and no positive predictions in window",
+          "defined": false
+        },
+        "+6h": {
+          "POD": null,
+          "FAR": null,
+          "CSI": null,
+          "Accuracy": 100.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 34,
+          "positives": 0,
+          "undefined_reason": "no positive events and no positive predictions in window",
+          "defined": false
+        }
+      },
+      "Air Quality": {
+        "+2h": {
+          "POD": null,
+          "FAR": null,
+          "CSI": null,
+          "Accuracy": 100.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 34,
+          "positives": 0,
+          "undefined_reason": "no positive events and no positive predictions in window",
+          "defined": false
+        },
+        "+4h": {
+          "POD": null,
+          "FAR": null,
+          "CSI": null,
+          "Accuracy": 100.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 34,
+          "positives": 0,
+          "undefined_reason": "no positive events and no positive predictions in window",
+          "defined": false
+        },
+        "+6h": {
+          "POD": null,
+          "FAR": null,
+          "CSI": null,
+          "Accuracy": 100.0,
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 34,
+          "positives": 0,
+          "undefined_reason": "no positive events and no positive predictions in window",
+          "defined": false
+        }
+      }
+    },
+    "family2_regression": {
+      "flood_depth_cm": {
+        "RMSE": 4.43,
+        "MAE": 2.49,
+        "R2": 0.793
+      },
+      "rainfall_mm_hr": {
+        "RMSE": 23.02,
+        "MAE": 10.61,
+        "R2": -0.705
+      },
+      "risk_severity_score": {
+        "RMSE": 13.55,
+        "MAE": 11.26,
+        "R2": 0.688
+      }
+    },
+    "family3_probabilistic": {
+      "aggregate": {
+        "brier_score": 0.0182,
+        "expected_calibration_error_ece": 0.0557,
+        "reliability_bins": [
+          {
+            "bin": "0.0-0.2",
+            "count": 7954,
+            "avg_confidence": 0.039,
+            "observed_frequency": 0.002,
+            "gap": 0.037
+          },
+          {
+            "bin": "0.2-0.4",
+            "count": 566,
+            "avg_confidence": 0.259,
+            "observed_frequency": 0.027,
+            "gap": 0.232
+          },
+          {
+            "bin": "0.4-0.6",
+            "count": 200,
+            "avg_confidence": 0.497,
+            "observed_frequency": 0.215,
+            "gap": 0.282
+          },
+          {
+            "bin": "0.6-0.8",
+            "count": 130,
+            "avg_confidence": 0.694,
+            "observed_frequency": 0.854,
+            "gap": 0.16
+          },
+          {
+            "bin": "0.8-1.0",
+            "count": 330,
+            "avg_confidence": 0.977,
+            "observed_frequency": 0.958,
+            "gap": 0.019
+          }
+        ],
+        "conformal_coverage_pct": 94.5,
+        "conformal_quantile_q": 8.1
+      },
+      "per_head": {
+        "flash_flood": {
+          "brier_score": 0.0078,
+          "ece": 0.0132,
+          "reliability_bins": [
+            {
+              "bin": "0.0-0.2",
+              "count": 2931,
+              "avg_confidence": 0.012,
+              "observed_frequency": 0.002,
+              "gap": 0.01
+            },
+            {
+              "bin": "0.2-0.4",
+              "count": 16,
+              "avg_confidence": 0.273,
+              "observed_frequency": 0.438,
+              "gap": 0.164
+            },
+            {
+              "bin": "0.4-0.6",
+              "count": 16,
+              "avg_confidence": 0.471,
+              "observed_frequency": 0.375,
+              "gap": 0.096
+            },
+            {
+              "bin": "0.6-0.8",
+              "count": 14,
+              "avg_confidence": 0.702,
+              "observed_frequency": 0.571,
+              "gap": 0.131
+            },
+            {
+              "bin": "0.8-1.0",
+              "count": 83,
+              "avg_confidence": 0.977,
+              "observed_frequency": 0.916,
+              "gap": 0.061
+            }
+          ],
+          "samples": 3060,
+          "positives": 103,
+          "base_rate": 0.0337,
+          "reference_brier_climatology": 0.0325,
+          "defined": true,
+          "undefined_reason": null
+        },
+        "cloudburst": {
+          "brier_score": 0.0107,
+          "ece": 0.0211,
+          "reliability_bins": [
+            {
+              "bin": "0.0-0.2",
+              "count": 2744,
+              "avg_confidence": 0.024,
+              "observed_frequency": 0.003,
+              "gap": 0.021
+            },
+            {
+              "bin": "0.2-0.4",
+              "count": 36,
+              "avg_confidence": 0.282,
+              "observed_frequency": 0.194,
+              "gap": 0.087
+            },
+            {
+              "bin": "0.4-0.6",
+              "count": 21,
+              "avg_confidence": 0.503,
+              "observed_frequency": 0.524,
+              "gap": 0.021
+            },
+            {
+              "bin": "0.6-0.8",
+              "count": 23,
+              "avg_confidence": 0.71,
+              "observed_frequency": 0.696,
+              "gap": 0.014
+            },
+            {
+              "bin": "0.8-1.0",
+              "count": 236,
+              "avg_confidence": 0.983,
+              "observed_frequency": 0.97,
+              "gap": 0.013
+            }
+          ],
+          "samples": 3060,
+          "positives": 272,
+          "base_rate": 0.0889,
+          "reference_brier_climatology": 0.081,
+          "defined": true,
+          "undefined_reason": null
+        },
+        "thunderstorm": {
+          "brier_score": 0.0361,
+          "ece": 0.1376,
+          "reliability_bins": [
+            {
+              "bin": "0.0-0.2",
+              "count": 2279,
+              "avg_confidence": 0.092,
+              "observed_frequency": 0.0,
+              "gap": 0.092
+            },
+            {
+              "bin": "0.2-0.4",
+              "count": 514,
+              "avg_confidence": 0.257,
+              "observed_frequency": 0.002,
+              "gap": 0.255
+            },
+            {
+              "bin": "0.4-0.6",
+              "count": 163,
+              "avg_confidence": 0.498,
+              "observed_frequency": 0.16,
+              "gap": 0.339
+            },
+            {
+              "bin": "0.6-0.8",
+              "count": 93,
+              "avg_confidence": 0.688,
+              "observed_frequency": 0.935,
+              "gap": 0.247
+            },
+            {
+              "bin": "0.8-1.0",
+              "count": 11,
+              "avg_confidence": 0.831,
+              "observed_frequency": 1.0,
+              "gap": 0.169
+            }
+          ],
+          "samples": 3060,
+          "positives": 125,
+          "base_rate": 0.0408,
+          "reference_brier_climatology": 0.0392,
+          "defined": true,
+          "undefined_reason": null
+        }
+      },
+      "conformal_per_target": {
+        "flood_depth_cm": {
+          "q": 8.1,
+          "coverage_pct": 94.5,
+          "target_coverage_pct": 90.0,
+          "n_test": 3060,
+          "meets_guarantee": true,
+          "in_scope": true
+        },
+        "risk_severity_score": {
+          "q": 64.367,
+          "coverage_pct": 100.0,
+          "target_coverage_pct": 90.0,
+          "n_test": 3060,
+          "meets_guarantee": true,
+          "in_scope": true
+        },
+        "rainfall_mm_hr": {
+          "q": 53.43,
+          "coverage_pct": 93.1,
+          "target_coverage_pct": 90.0,
+          "n_test": 102,
+          "meets_guarantee": true,
+          "in_scope": true
+        }
+      },
+      "conformal_alpha": 0.1,
+      "notes": "per_head scores each model head against its own observed label; reference_brier_climatology is the score of always predicting the base rate, so a Brier above it means the head is worse than a constant forecast of the event frequency. Conformal coverage is a MARGINAL guarantee that assumes the calibration and test samples are exchangeable. This split is temporal, so a target can fall slightly below the 90% figure -- flood depth does -- without implying a calibration defect. The measured coverage is reported as it falls, not tuned to the target.",
+      "brier_score": 0.0182,
+      "expected_calibration_error_ece": 0.0557,
+      "conformal_coverage_pct": 94.5,
+      "conformal_quantile_q": 8.1
+    },
+    "family4_operational": {
+      "lead_time_to_first_alert_hours": null,
+      "lead_time_note": "the observed severity peak (replay step 39) falls before the scored test partition, so the window opens on the peak and lead time is not measurable on held-out data",
+      "first_alert_timestep": 39,
+      "peak_risk_timestep": 39,
+      "observed_peak_timestep": 39,
+      "observed_peak_within_test_window": false,
+      "replay_lead_time_hours": 3,
+      "replay_first_alert_timestep": 24,
+      "replay_observed_peak_timestep": 27,
+      "replay_lead_time_label": "operational only -- measured across the full replay including the models' training window; not a held-out metric",
+      "false_alarms_per_week": 29.6,
+      "false_alarm_timestep_count": 6,
+      "false_alarm_decision_count": 11,
+      "false_alarm_basis": "one false alarm per test timestep on which a Flood alert was issued with no observed event at any lead time, extrapolated to a week; false_alarm_decision_count is the raw timestep x horizon tally and counts the same alert up to three times",
+      "test_duration_hours": 34,
+      "evacuation_detour_overhead_pct": 4.9
+    }
+  }
+}

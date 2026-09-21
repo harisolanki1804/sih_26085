@@ -1,0 +1,323 @@
+{
+  "training_date": "2026-09-18T07:31:42",
+  "n_timesteps": 72,
+  "n_features": 26,
+  "feature_columns": [
+    "rainfall_1h_mm",
+    "rainfall_3h_mm",
+    "rainfall_6h_mm",
+    "rainfall_24h_mm",
+    "soil_moisture_pct",
+    "soil_saturation_factor",
+    "iwv_mm",
+    "cape_instability_jkg",
+    "cin_jkg",
+    "lifted_index",
+    "cloud_top_temp_celsius",
+    "ctt_drop_rate_c_per_hr",
+    "wind_speed_10m_kmh",
+    "wind_direction_10m_deg",
+    "u_wind_ms",
+    "v_wind_ms",
+    "wind_gusts_kmh",
+    "vertical_wind_shear_ms",
+    "low_level_convergence",
+    "elevation_m",
+    "slope_deg",
+    "runoff_coefficient",
+    "effective_runoff_mm_hr",
+    "drainage_outfall_dist_m",
+    "retention_index",
+    "tidal_backwater_factor"
+  ],
+  "model_input_features": [
+    "rainfall_1h_mm",
+    "rainfall_3h_mm",
+    "rainfall_6h_mm",
+    "rainfall_24h_mm",
+    "soil_moisture_pct",
+    "soil_saturation_factor",
+    "iwv_mm",
+    "cape_instability_jkg",
+    "cin_jkg",
+    "lifted_index",
+    "cloud_top_temp_celsius",
+    "ctt_drop_rate_c_per_hr",
+    "wind_speed_10m_kmh",
+    "wind_direction_10m_deg",
+    "u_wind_ms",
+    "v_wind_ms",
+    "wind_gusts_kmh",
+    "vertical_wind_shear_ms",
+    "low_level_convergence",
+    "elevation_m",
+    "slope_deg",
+    "runoff_coefficient",
+    "effective_runoff_mm_hr",
+    "drainage_outfall_dist_m",
+    "retention_index",
+    "tidal_backwater_factor"
+  ],
+  "residual_config": "D:\\Hari\\Codings\\SIH - 2026\\sih_26077\\Backend\\models\\checkpoints\\physics_residual.json",
+  "split": "train 1-32, calibrate 33-38, test 39-72 (frozen time-based split)",
+  "seed": 42,
+  "fusion_calibration": {
+    "agreement_anomaly_threshold": 0.337,
+    "percentile": 10.0,
+    "n_calibration_samples": 6,
+    "calibration_min": 0.323,
+    "calibration_max": 0.407,
+    "calibration_median": 0.362,
+    "source": "calibration window",
+    "method": "lowest 10th percentile of global_agreement_score on the calibration window; 'anomalous' means materially less agreement than is typical for this event",
+    "calibration_timesteps": "33-38"
+  },
+  "target_sources": {
+    "thunderstorm_prob": "DERIVED (CAPE/CTT/wind heuristic - no ground-truth column exists in this dataset)",
+    "cloudburst_prob": "OBSERVED (target_cloudburst_flag)",
+    "flash_flood_prob": "OBSERVED (target_flash_flood_flag)",
+    "severity_score": "OBSERVED (target_severity_class mapped to 0-100)",
+    "flood_depth_cm": "OBSERVED (target_observed_flood_depth_cm)"
+  },
+  "physics_baseline_r2": {
+    "severity": 0.5955,
+    "depth": 0.1584
+  },
+  "holdout_windows": {
+    "validation": {
+      "rainfall_max_mm_hr": 422.8,
+      "rainfall_mean_mm_hr": 89.74,
+      "cells_with_flood_depth": 384,
+      "cells_total": 540,
+      "max_flood_depth_cm": 83.9,
+      "max_severity_score": 100.0,
+      "max_severity_class": 3,
+      "flash_flood_cells": 87,
+      "cloudburst_cells": 258,
+      "degenerate_for_depth_and_severity": false
+    },
+    "test": {
+      "rainfall_max_mm_hr": 297.9,
+      "rainfall_mean_mm_hr": 21.1,
+      "cells_with_flood_depth": 1803,
+      "cells_total": 3060,
+      "max_flood_depth_cm": 122.0,
+      "max_severity_score": 100.0,
+      "max_severity_class": 3,
+      "flash_flood_cells": 103,
+      "cloudburst_cells": 272,
+      "degenerate_for_depth_and_severity": false
+    }
+  },
+  "evaluation_caveat": "Neither holdout window is degenerate: both contain flooded cells and hazard events, so the depth/severity error reported on them is a genuine held-out skill estimate rather than a constant-zero regression check. validation: 384/540 cells flooded, 87 flash-flood and 258 cloudburst cell-instants, max depth 83.9 cm, max severity 100.0/100 (class 3 of 3), mean rainfall 89.74 mm/hr. test: 1803/3060 cells flooded, 103 flash-flood and 272 cloudburst cell-instants, max depth 122.0 cm, max severity 100.0/100 (class 3 of 3), mean rainfall 21.1 mm/hr.",
+  "results": {
+    "multi_hazard": {
+      "final_val_accuracy": 0.9074,
+      "best_val_loss": 1.3753,
+      "epochs_trained": 97,
+      "checkpoint": "multi_hazard_predictor.pt",
+      "residual_learning": true,
+      "mae_severity_absolute": 10.0677,
+      "mae_depth_absolute_cm": 3.2204,
+      "baseline_mae_severity": 12.8908,
+      "baseline_mae_depth_cm": 13.1107
+    },
+    "nowcaster": {
+      "best_val_loss": 15.903807,
+      "n_sequences": 21,
+      "train_timesteps": "1-32",
+      "val_partition": "tail 20% of the train-partition sequences",
+      "channels": [
+        "rainfall_1h_mm",
+        "rainfall_3h_mm",
+        "rainfall_24h_mm",
+        "soil_moisture_pct",
+        "iwv_mm",
+        "cape_instability_jkg",
+        "cloud_top_temp_celsius",
+        "vertical_wind_shear_ms"
+      ],
+      "target": "residual_over_trend_baseline",
+      "normalization": "nowcast_normalization.json",
+      "checkpoint": "spatiotemporal_nowcaster.pt",
+      "data_basis": "21 sequences from the frozen train partition (timesteps 1-32), which is a single build-up phase with no decay; the calibrate band yields no nowcast sequences at window=6/horizon=6, so validation uses the train-partition tail. The trend baseline carries the direction of change; the network supplies the spatial pattern. Short-lead skill vs persistence is therefore ~0 and only turns positive at +4..+6h."
+    },
+    "storm_cell": {
+      "best_val_loss": 0.10894,
+      "checkpoint": "storm_cell_detector.pt"
+    },
+    "crowd_nlp": {
+      "checkpoint": "crowd_nlp_classifier.pt",
+      "n_reports": 20
+    },
+    "trust_scorer": {
+      "checkpoint": "forecast_trust_scorer.pt"
+    },
+    "xai": {
+      "checkpoint": "xai_attention_layer.pt",
+      "learned_feature_importance": {
+        "rainfall_1h_mm": 0.0351,
+        "rainfall_3h_mm": 0.0425,
+        "rainfall_6h_mm": 0.0471,
+        "rainfall_24h_mm": 0.0461,
+        "soil_moisture_pct": 0.0345,
+        "soil_saturation_factor": 0.0382,
+        "iwv_mm": 0.0437,
+        "cape_instability_jkg": 0.0378,
+        "cin_jkg": 0.0405,
+        "lifted_index": 0.0379,
+        "cloud_top_temp_celsius": 0.0366,
+        "ctt_drop_rate_c_per_hr": 0.0456,
+        "wind_speed_10m_kmh": 0.0434,
+        "wind_direction_10m_deg": 0.0376,
+        "u_wind_ms": 0.041,
+        "v_wind_ms": 0.05,
+        "wind_gusts_kmh": 0.0339,
+        "vertical_wind_shear_ms": 0.0303,
+        "low_level_convergence": 0.0375,
+        "elevation_m": 0.0225,
+        "slope_deg": 0.0428,
+        "runoff_coefficient": 0.0376,
+        "effective_runoff_mm_hr": 0.0395,
+        "drainage_outfall_dist_m": 0.0302,
+        "retention_index": 0.0355,
+        "tidal_backwater_factor": 0.0326
+      }
+    },
+    "flood_depth": {
+      "checkpoint": "flood_depth_estimator.pt",
+      "val_mae_cm": 4.01,
+      "val_mae_residual_normalised": 0.0445,
+      "residual_learning": true,
+      "residual_scale": 90.0
+    },
+    "conformal": {
+      "served_target": "risk_severity_score",
+      "risk_severity_score": {
+        "alpha": 0.1,
+        "guaranteed_coverage": 0.9,
+        "empirical_coverage": 0.9019,
+        "quantile_threshold": 18.393,
+        "avg_interval_width": 36.79,
+        "calibration_samples": 540,
+        "residual_stats": {
+          "mean": 10.0677,
+          "std": 6.6131,
+          "median": 9.3423,
+          "p90": 18.3729,
+          "p95": 21.3051,
+          "p99": 28.6062
+        },
+        "calibrated_quantity": "risk_severity_score",
+        "calibrated_on": "calibrate partition of the frozen time-based split"
+      },
+      "flood_depth_cm": {
+        "alpha": 0.1,
+        "guaranteed_coverage": 0.9,
+        "empirical_coverage": 0.9019,
+        "quantile_threshold": 7.6752,
+        "avg_interval_width": 15.35,
+        "calibration_samples": 540,
+        "residual_stats": {
+          "mean": 3.2204,
+          "std": 4.0444,
+          "median": 1.9532,
+          "p90": 7.5819,
+          "p95": 10.7619,
+          "p99": 21.9243
+        },
+        "calibrated_quantity": "flood_depth_cm",
+        "calibrated_on": "calibrate partition of the frozen time-based split"
+      }
+    },
+    "shap": {
+      "error": "only 0-dimensional arrays can be converted to Python scalars",
+      "method": "fallback_uniform"
+    },
+    "test_evaluation": {
+      "multi_hazard": {
+        "accuracy": 0.7641,
+        "classification_report": {
+          "0": {
+            "precision": 0.7022397891963109,
+            "recall": 0.8883333333333333,
+            "f1-score": 0.7844002943340692,
+            "support": 1200.0
+          },
+          "1": {
+            "precision": 0.8486842105263158,
+            "recall": 0.6807387862796834,
+            "f1-score": 0.7554904831625183,
+            "support": 1516.0
+          },
+          "2": {
+            "precision": 0.7169117647058824,
+            "recall": 0.7677165354330708,
+            "f1-score": 0.7414448669201521,
+            "support": 254.0
+          },
+          "3": {
+            "precision": 0.8333333333333334,
+            "recall": 0.5,
+            "f1-score": 0.625,
+            "support": 90.0
+          },
+          "accuracy": 0.7640522875816993,
+          "macro avg": {
+            "precision": 0.7752922744404607,
+            "recall": 0.7091971637615219,
+            "f1-score": 0.726583911104185,
+            "support": 3060.0
+          },
+          "weighted avg": {
+            "precision": 0.7798655550420791,
+            "recall": 0.7640522875816993,
+            "f1-score": 0.7618238306774442,
+            "support": 3060.0
+          }
+        },
+        "confusion_matrix": [
+          [
+            1066,
+            134,
+            0,
+            0
+          ],
+          [
+            452,
+            1032,
+            32,
+            0
+          ],
+          [
+            0,
+            50,
+            195,
+            9
+          ],
+          [
+            0,
+            0,
+            45,
+            45
+          ]
+        ]
+      },
+      "flood_depth": {
+        "mae_cm": 2.48,
+        "rmse_cm": 4.43
+      }
+    },
+    "fusion_calibration": {
+      "agreement_anomaly_threshold": 0.337,
+      "percentile": 10.0,
+      "n_calibration_samples": 6,
+      "calibration_min": 0.323,
+      "calibration_max": 0.407,
+      "calibration_median": 0.362,
+      "source": "calibration window",
+      "method": "lowest 10th percentile of global_agreement_score on the calibration window; 'anomalous' means materially less agreement than is typical for this event",
+      "calibration_timesteps": "33-38"
+    }
+  }
+}

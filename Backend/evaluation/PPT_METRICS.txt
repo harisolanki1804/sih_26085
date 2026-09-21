@@ -1,0 +1,147 @@
+==============================================================================
+  PROJECT VARUNA -- EVALUATION METRICS (PPT-Ready)
+  Hyperlocal Urban Flood Digital Twin -- Mumbai Pilot
+==============================================================================
+
+  Split: train 1-32, calibrate 33-38, test 39-72 (frozen time-based split)
+  Nowcast scored on: timesteps 39 to 72
+  Generated: 2026-09-18T13:02:07
+
+[METRIC 1] WARNING LEAD TIME
+------------------------------------------------------------------------------
+  Measured lead time to first alert: not measurable on the held-out split
+    - the observed severity peak (replay step 39) falls before the scored test partition, so the window opens on the peak and lead time is not measurable on held-out data
+    - operational (full replay, includes the training window): 3 hours before the severity peak (step 24 -> 27)
+  Reference (IMD practice): alerts are issued as thresholds are crossed,
+  typically 30-60 minutes of radar nowcast -- i.e. reactive, not predictive.
+  Model peak risk at replay step 39; observed severity peak at step 39 (both global 1-based replay steps).
+
+  Nowcast skill by lead time (rainfall, held-out split):
+    Horizon       MAE     RMSE       R2     Bias  Persistence    Skill     n
+    +1h           7.4     14.2    0.745     3.34         7.38    -0.3%    33
+    +2h          10.8    20.74    0.111     5.81        11.00     1.8%    32
+    +3h         11.76    22.09   -0.331     7.64        11.20    -5.0%    31
+    +4h         11.12    25.36   -1.225     9.45        12.58    11.6%    30
+    +5h         12.88    28.52   -2.838    11.47        14.72    12.5%    29
+    +6h         14.36    27.38   -2.539    12.47        16.03    10.4%    28
+    OVERALL     11.28    23.31   -0.315
+
+  Skill is measured against persistence (rainfall holds at its current
+  value). Persistence fits nothing, so beating it is the minimum bar for
+  a forecast to be worth issuing; a negative skill means persistence wins.
+
+  Forecast source (which code path produced the numbers above):
+    trained_neural_network             19 timesteps
+    trend_aware_extrapolation          15 timesteps
+
+  Training data basis (read alongside the skill numbers above):
+    n_sequences      21
+    train_timesteps  1-32
+    val_partition    tail 20% of the train-partition sequences
+    target           residual_over_trend_baseline
+    best_val_loss    15.903807
+
+    21 sequences from the frozen train partition (timesteps 1-32), which
+    is a single build-up phase with no decay; the calibrate band yields no
+    nowcast sequences at window=6/horizon=6, so validation uses the train-
+    partition tail. The trend baseline carries the direction of change;
+    the network supplies the spatial pattern. Short-lead skill vs
+    persistence is therefore ~0 and only turns positive at +4..+6h.
+
+[METRIC 2] HAZARD DETECTION (held-out split, per hazard per lead time)
+------------------------------------------------------------------------------
+  Hazard         Horizon       POD      FAR      CSI      Acc   Events
+  Flood          +2h          80.0     42.9     50.0     88.2        5
+  Flood          +4h         100.0     57.1     42.9     88.2        3
+  Flood          +6h         100.0     66.7     33.3     88.2        2
+  Lightning      +2h      undefined undefined undefined    100.0        0
+  Lightning      +4h      undefined undefined undefined    100.0        0
+  Lightning      +6h      undefined undefined undefined    100.0        0
+  Wind           +2h         100.0     50.0     50.0     58.8       14
+  Wind           +4h         100.0     53.6     46.4     55.9       13
+  Wind           +6h         100.0     59.3     40.7     52.9       11
+  Heat           +2h      undefined undefined undefined    100.0        0
+  Heat           +4h      undefined undefined undefined    100.0        0
+  Heat           +6h      undefined undefined undefined    100.0        0
+  Air Quality    +2h      undefined undefined undefined    100.0        0
+  Air Quality    +4h      undefined undefined undefined    100.0        0
+  Air Quality    +6h      undefined undefined undefined    100.0        0
+
+  Metrics that this window cannot support (reported, not fabricated):
+  Lightning +2h: no positive events and no positive predictions in window
+  Lightning +4h: no positive events and no positive predictions in window
+  Lightning +6h: no positive events and no positive predictions in window
+  Heat +2h: no positive events and no positive predictions in window
+  Heat +4h: no positive events and no positive predictions in window
+  Heat +6h: no positive events and no positive predictions in window
+  Air Quality +2h: no positive events and no positive predictions in window
+  Air Quality +4h: no positive events and no positive predictions in window
+  Air Quality +6h: no positive events and no positive predictions in window
+
+[METRIC 3] REGRESSION ACCURACY (held-out split)
+------------------------------------------------------------------------------
+  Target                         RMSE        MAE         R2
+  flood_depth_cm                 4.43       2.49      0.793
+  rainfall_mm_hr                23.02      10.61     -0.705
+  risk_severity_score           13.55      11.26      0.688
+
+  Physics-residual ablation (same split):
+    Flood depth MAE   physics baseline 13.1107 cm -> VARUNA 3.2204 cm
+    Risk severity MAE physics baseline 12.8908 -> VARUNA 10.0677
+
+[METRIC 4] PROBABILISTIC CALIBRATION
+------------------------------------------------------------------------------
+  Brier score (aggregate):        0.0182
+  Expected calibration error:     0.0557
+
+  Head                  Brier        ECE  Climatology    Positives
+  flash_flood          0.0078     0.0132       0.0325     103/3060
+  cloudburst           0.0107     0.0211       0.0810     272/3060
+  thunderstorm         0.0361     0.1376       0.0392     125/3060
+
+  per_head scores each model head against its own observed label; reference_brier_climatology is the score of always predicting the base rate, so a Brier above it means the head is worse than a constant forecast of the event frequency. Conformal coverage is a MARGINAL guarantee that assumes the calibration and test samples are exchangeable. This split is temporal, so a target can fall slightly below the 90% figure -- flood depth does -- without implying a calibration defect. The measured coverage is reported as it falls, not tuned to the target.
+
+  Conformal coverage (target >= 90%):
+    flood_depth_cm         coverage=94.5% q=8.100 n=3060 OK
+    risk_severity_score    coverage=100.0% q=64.367 n=3060 OK
+    rainfall_mm_hr         coverage=93.1% q=53.430 n=102 OK
+
+[METRIC 5] OPERATIONAL METRICS
+------------------------------------------------------------------------------
+  False alarms per week (normalised): 29.6
+  Evacuation detour overhead:         4.9%
+  Peak risk timestep:                 39
+  Observed peak timestep:             39
+
+[METRIC 6] HYPERLOCAL GRANULARITY
+------------------------------------------------------------------------------
+  Traditional:  city-wide single alert (e.g. 'Mumbai: heavy rain warning')
+  VARUNA:       90 individual cells, each with risk score, flood depth,
+                named locality, 3-hazard probabilities, XAI drivers and a
+                conformal confidence interval.
+
+[METRIC 7] COST & INFRASTRUCTURE
+------------------------------------------------------------------------------
+  Traditional: Doppler radar ($5-10M/station), commercial satellite
+               licences ($50K+/yr), NWP supercomputer ($1-5M), 20-50 staff.
+  VARUNA:      free data sources (Open-Meteo, SRTM, MOSDAC), PyTorch CPU
+               inference on a laptop, 1-2 operators with AI assist.
+
+==============================================================================
+  Slide-ready summary
+==============================================================================
+
+  METRIC                                      VARUNA (measured)
+  ---------------------------------- --------------------------
+  Warning lead time                                       n/a h
+  Flood depth MAE                                       2.49 cm
+  Flood depth R2                                          0.793
+  Risk severity R2                                        0.688
+  Brier score (aggregate)                                0.0182
+  Conformal coverage                                      94.5%
+  Nowcast MAE (held-out)                            11.28 mm/hr
+  Nowcast +6h vs persistence                        10.4% skill
+  Spatial resolution                                   90 cells
+  Hazard types                                 3 (TS + CB + FF)
+
+==============================================================================

@@ -1,0 +1,81 @@
+{
+  "total_samples": 61,
+  "split": {
+    "type": "frozen_time_based",
+    "description": "train 1-32, calibrate 33-38, test 39-72 (frozen time-based split)",
+    "timestep_bounds": {
+      "train": [
+        0,
+        32
+      ],
+      "calibrate": [
+        32,
+        38
+      ],
+      "test": [
+        38,
+        72
+      ]
+    },
+    "sample_bounds": {
+      "train": [
+        0,
+        21
+      ],
+      "calibrate": [
+        32,
+        32
+      ],
+      "test": [
+        38,
+        61
+      ]
+    },
+    "basis": "Samples are overlapping sliding windows, so the split is applied on the timestep axis rather than by shuffling. A sample is usable only if its whole window plus forecast horizon fits inside the partition, which is why the sample partitions do not tile the axis and the 6-timestep calibration window yields no sequence samples."
+  },
+  "train_samples": 21,
+  "val_samples": 0,
+  "test_samples": 23,
+  "window_size": 6,
+  "forecast_horizon": 6,
+  "num_features": 26,
+  "num_targets": 5,
+  "grid_rows": 10,
+  "grid_cols": 9,
+  "num_cells": 90,
+  "feature_columns": [
+    "rainfall_1h_mm",
+    "rainfall_3h_mm",
+    "rainfall_6h_mm",
+    "rainfall_24h_mm",
+    "soil_moisture_pct",
+    "soil_saturation_factor",
+    "iwv_mm",
+    "cape_instability_jkg",
+    "cin_jkg",
+    "lifted_index",
+    "cloud_top_temp_celsius",
+    "ctt_drop_rate_c_per_hr",
+    "wind_speed_10m_kmh",
+    "wind_direction_10m_deg",
+    "u_wind_ms",
+    "v_wind_ms",
+    "wind_gusts_kmh",
+    "vertical_wind_shear_ms",
+    "low_level_convergence",
+    "elevation_m",
+    "slope_deg",
+    "runoff_coefficient",
+    "effective_runoff_mm_hr",
+    "drainage_outfall_dist_m",
+    "retention_index",
+    "tidal_backwater_factor"
+  ],
+  "target_columns": [
+    "target_observed_flood_depth_cm",
+    "target_severity_class",
+    "target_flash_flood_flag",
+    "target_cloudburst_flag",
+    "target_waterlogging_flag"
+  ]
+}

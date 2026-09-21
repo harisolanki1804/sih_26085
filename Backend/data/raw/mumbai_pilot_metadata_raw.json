@@ -1,0 +1,52 @@
+{
+  "region_code": "IN-MH-BOM-01",
+  "region_name": "Mumbai Metropolitan Region & Mithi Catchment",
+  "bounding_box": {
+    "lat_min": 18.88,
+    "lat_max": 19.26,
+    "lon_min": 72.78,
+    "lon_max": 73.0
+  },
+  "center": {
+    "lat": 19.07,
+    "lon": 72.88
+  },
+  "critical_points": [
+    {
+      "name": "Hindmata - Dadar TT Circle",
+      "lat": 19.018,
+      "lon": 72.843,
+      "base_elevation_m": 3.2
+    },
+    {
+      "name": "Kurla West Junction",
+      "lat": 19.07,
+      "lon": 72.88,
+      "base_elevation_m": 4.5
+    },
+    {
+      "name": "BKC Outfall",
+      "lat": 19.06,
+      "lon": 72.87,
+      "base_elevation_m": 5.0
+    },
+    {
+      "name": "Sion Circle",
+      "lat": 19.045,
+      "lon": 72.865,
+      "base_elevation_m": 3.8
+    },
+    {
+      "name": "Andheri Subway",
+      "lat": 19.119,
+      "lon": 72.846,
+      "base_elevation_m": 6.1
+    },
+    {
+      "name": "Mahim Bay",
+      "lat": 19.035,
+      "lon": 72.84,
+      "base_elevation_m": 1.2
+    }
+  ]
+}

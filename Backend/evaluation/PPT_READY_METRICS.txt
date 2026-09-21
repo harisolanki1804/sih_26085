@@ -1,0 +1,82 @@
+================================================================================================
+  VARUNA 4-FAMILY CANONICAL EVALUATION (FROZEN TIME-BASED TEST SPLIT)
+================================================================================================
+  Split: train 1-32, calibrate 33-38, test 39-72 (frozen time-based split) | Zero Temporal Leakage
+  Test window: timesteps 39 to 72 (34 timesteps)
+================================================================================================
+
+[FAMILY 1] CLASSIFICATION PERFORMANCE (POD, FAR, CSI at +2h, +4h, +6h)
+------------------------------------------------------------------------------------------------
+Hazard Category  Horizon         POD (%)      FAR (%)      CSI (%)    Acc (%)   Events
+------------------------------------------------------------------------------------------------
+Flood            +2h                80.0         42.9         50.0       88.2        5
+Flood            +4h               100.0         57.1         42.9       88.2        3
+Flood            +6h               100.0         66.7         33.3       88.2        2
+------------------------------------------------------------------------------------------------
+Lightning        +2h           undefined    undefined    undefined      100.0        0
+                 -> no positive events and no positive predictions in window
+Lightning        +4h           undefined    undefined    undefined      100.0        0
+                 -> no positive events and no positive predictions in window
+Lightning        +6h           undefined    undefined    undefined      100.0        0
+                 -> no positive events and no positive predictions in window
+------------------------------------------------------------------------------------------------
+Wind             +2h               100.0         50.0         50.0       58.8       14
+Wind             +4h               100.0         53.6         46.4       55.9       13
+Wind             +6h               100.0         59.3         40.7       52.9       11
+------------------------------------------------------------------------------------------------
+Heat             +2h           undefined    undefined    undefined      100.0        0
+                 -> no positive events and no positive predictions in window
+Heat             +4h           undefined    undefined    undefined      100.0        0
+                 -> no positive events and no positive predictions in window
+Heat             +6h           undefined    undefined    undefined      100.0        0
+                 -> no positive events and no positive predictions in window
+------------------------------------------------------------------------------------------------
+Air Quality      +2h           undefined    undefined    undefined      100.0        0
+                 -> no positive events and no positive predictions in window
+Air Quality      +4h           undefined    undefined    undefined      100.0        0
+                 -> no positive events and no positive predictions in window
+Air Quality      +6h           undefined    undefined    undefined      100.0        0
+                 -> no positive events and no positive predictions in window
+------------------------------------------------------------------------------------------------
+
+[FAMILY 2] REGRESSION PERFORMANCE (Continuous Prediction Metrics)
+------------------------------------------------------------------------------------------------
+Target Variable                            RMSE            MAE       R² Score
+------------------------------------------------------------------------------------------------
+flood_depth_cm                             4.43           2.49          0.793
+rainfall_mm_hr                            23.02          10.61         -0.705
+risk_severity_score                       13.55          11.26          0.688
+
+[FAMILY 3] PROBABILISTIC FORECAST CALIBRATION
+------------------------------------------------------------------------------------------------
+  Brier Score (aggregate, all heads):             0.0182  (Optimal = 0.0)
+  Expected Calibration Error (aggregate):         0.0557
+
+  Per-Head Calibration (Brier vs climatology reference):
+    flash_flood    Brier=    0.0078  ECE=    0.0132  reference=    0.0325  positives= 103/3060
+    cloudburst     Brier=    0.0107  ECE=    0.0211  reference=    0.0810  positives= 272/3060
+    thunderstorm   Brier=    0.0361  ECE=    0.1376  reference=    0.0392  positives= 125/3060
+
+  Conformal Coverage per Regression Target (target >= 90%):
+    flood_depth_cm       q=     8.100  coverage=      94.5%  n= 3060  OK
+    risk_severity_score  q=    64.367  coverage=     100.0%  n= 3060  OK
+    rainfall_mm_hr       q=    53.430  coverage=      93.1%  n=  102  OK
+
+  Reliability Diagram Bins (Confidence vs Observed Frequency, aggregate):
+    - Prob Range 0.0-0.2 : Conf=0.04 | Obs=0.00 | Gap=0.037 (n=7954)
+    - Prob Range 0.2-0.4 : Conf=0.26 | Obs=0.03 | Gap=0.232 (n=566)
+    - Prob Range 0.4-0.6 : Conf=0.50 | Obs=0.21 | Gap=0.282 (n=200)
+    - Prob Range 0.6-0.8 : Conf=0.69 | Obs=0.85 | Gap=0.160 (n=130)
+    - Prob Range 0.8-1.0 : Conf=0.98 | Obs=0.96 | Gap=0.019 (n=330)
+
+[FAMILY 4] OPERATIONAL METRICS
+------------------------------------------------------------------------------------------------
+  Lead Time to First Alert:             not measurable on the held-out split
+    - the observed severity peak (replay step 39) falls before the scored test partition, so the window opens on the peak and lead time is not measurable on held-out data
+    - First alert raised at replay step 39
+    - Model peak risk at replay step 39
+  Replay Lead Time (operational):       3 hours before the severity peak (step 24 -> 27)
+    - operational only -- measured across the full replay including the models' training window; not a held-out metric
+  False Alarms per Week (Normalized):   29.6 alerts/week
+  Evacuation Detour Overhead:           4.9% additional travel distance/time
+================================================================================================

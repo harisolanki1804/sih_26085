@@ -1,0 +1,511 @@
+{
+  "region_code": "IN-MH-BOM-01",
+  "dataset_name": "Multi-Sensor Soil Moisture & Atmospheric Instability Proxy Grid",
+  "provenance": "Synthetic satellite microwave and infrared proxies for Mumbai pilot",
+  "records": [
+    {
+      "timestep_id": 1,
+      "timestamp": "2022-07-05T00:00:00Z",
+      "mean_soil_moisture_pct": 20.8,
+      "mean_cape_jkg": 161.0,
+      "mean_ctt_celsius": -16.4
+    },
+    {
+      "timestep_id": 2,
+      "timestamp": "2022-07-05T01:00:00Z",
+      "mean_soil_moisture_pct": 21.9,
+      "mean_cape_jkg": 175.0,
+      "mean_ctt_celsius": -15.7
+    },
+    {
+      "timestep_id": 3,
+      "timestamp": "2022-07-05T02:00:00Z",
+      "mean_soil_moisture_pct": 22.9,
+      "mean_cape_jkg": 191.0,
+      "mean_ctt_celsius": -16.2
+    },
+    {
+      "timestep_id": 4,
+      "timestamp": "2022-07-05T03:00:00Z",
+      "mean_soil_moisture_pct": 24.0,
+      "mean_cape_jkg": 187.0,
+      "mean_ctt_celsius": -15.7
+    },
+    {
+      "timestep_id": 5,
+      "timestamp": "2022-07-05T04:00:00Z",
+      "mean_soil_moisture_pct": 25.0,
+      "mean_cape_jkg": 206.0,
+      "mean_ctt_celsius": -15.8
+    },
+    {
+      "timestep_id": 6,
+      "timestamp": "2022-07-05T05:00:00Z",
+      "mean_soil_moisture_pct": 26.5,
+      "mean_cape_jkg": 219.0,
+      "mean_ctt_celsius": -15.8
+    },
+    {
+      "timestep_id": 7,
+      "timestamp": "2022-07-05T06:00:00Z",
+      "mean_soil_moisture_pct": 27.6,
+      "mean_cape_jkg": 241.0,
+      "mean_ctt_celsius": -15.6
+    },
+    {
+      "timestep_id": 8,
+      "timestamp": "2022-07-05T07:00:00Z",
+      "mean_soil_moisture_pct": 28.5,
+      "mean_cape_jkg": 264.0,
+      "mean_ctt_celsius": -15.8
+    },
+    {
+      "timestep_id": 9,
+      "timestamp": "2022-07-05T08:00:00Z",
+      "mean_soil_moisture_pct": 29.9,
+      "mean_cape_jkg": 271.0,
+      "mean_ctt_celsius": -16.1
+    },
+    {
+      "timestep_id": 10,
+      "timestamp": "2022-07-05T09:00:00Z",
+      "mean_soil_moisture_pct": 30.3,
+      "mean_cape_jkg": 291.0,
+      "mean_ctt_celsius": -15.5
+    },
+    {
+      "timestep_id": 11,
+      "timestamp": "2022-07-05T10:00:00Z",
+      "mean_soil_moisture_pct": 32.2,
+      "mean_cape_jkg": 299.0,
+      "mean_ctt_celsius": -15.7
+    },
+    {
+      "timestep_id": 12,
+      "timestamp": "2022-07-05T11:00:00Z",
+      "mean_soil_moisture_pct": 33.1,
+      "mean_cape_jkg": 298.0,
+      "mean_ctt_celsius": -16.1
+    },
+    {
+      "timestep_id": 13,
+      "timestamp": "2022-07-05T12:00:00Z",
+      "mean_soil_moisture_pct": 35.0,
+      "mean_cape_jkg": 281.0,
+      "mean_ctt_celsius": -15.9
+    },
+    {
+      "timestep_id": 14,
+      "timestamp": "2022-07-05T13:00:00Z",
+      "mean_soil_moisture_pct": 36.5,
+      "mean_cape_jkg": 307.0,
+      "mean_ctt_celsius": -17.1
+    },
+    {
+      "timestep_id": 15,
+      "timestamp": "2022-07-05T14:00:00Z",
+      "mean_soil_moisture_pct": 38.0,
+      "mean_cape_jkg": 271.0,
+      "mean_ctt_celsius": -16.1
+    },
+    {
+      "timestep_id": 16,
+      "timestamp": "2022-07-05T15:00:00Z",
+      "mean_soil_moisture_pct": 39.2,
+      "mean_cape_jkg": 255.0,
+      "mean_ctt_celsius": -16.8
+    },
+    {
+      "timestep_id": 17,
+      "timestamp": "2022-07-05T16:00:00Z",
+      "mean_soil_moisture_pct": 41.0,
+      "mean_cape_jkg": 284.0,
+      "mean_ctt_celsius": -17.0
+    },
+    {
+      "timestep_id": 18,
+      "timestamp": "2022-07-05T17:00:00Z",
+      "mean_soil_moisture_pct": 43.1,
+      "mean_cape_jkg": 223.0,
+      "mean_ctt_celsius": -16.0
+    },
+    {
+      "timestep_id": 19,
+      "timestamp": "2022-07-05T18:00:00Z",
+      "mean_soil_moisture_pct": 45.3,
+      "mean_cape_jkg": 243.0,
+      "mean_ctt_celsius": -17.0
+    },
+    {
+      "timestep_id": 20,
+      "timestamp": "2022-07-05T19:00:00Z",
+      "mean_soil_moisture_pct": 49.7,
+      "mean_cape_jkg": 248.0,
+      "mean_ctt_celsius": -18.8
+    },
+    {
+      "timestep_id": 21,
+      "timestamp": "2022-07-05T20:00:00Z",
+      "mean_soil_moisture_pct": 61.4,
+      "mean_cape_jkg": 363.0,
+      "mean_ctt_celsius": -24.1
+    },
+    {
+      "timestep_id": 22,
+      "timestamp": "2022-07-05T21:00:00Z",
+      "mean_soil_moisture_pct": 63.4,
+      "mean_cape_jkg": 202.0,
+      "mean_ctt_celsius": -16.8
+    },
+    {
+      "timestep_id": 23,
+      "timestamp": "2022-07-05T22:00:00Z",
+      "mean_soil_moisture_pct": 72.6,
+      "mean_cape_jkg": 290.0,
+      "mean_ctt_celsius": -22.0
+    },
+    {
+      "timestep_id": 24,
+      "timestamp": "2022-07-05T23:00:00Z",
+      "mean_soil_moisture_pct": 78.0,
+      "mean_cape_jkg": 400.0,
+      "mean_ctt_celsius": -27.2
+    },
+    {
+      "timestep_id": 25,
+      "timestamp": "2022-07-05T24:00:00Z",
+      "mean_soil_moisture_pct": 82.8,
+      "mean_cape_jkg": 318.0,
+      "mean_ctt_celsius": -23.1
+    },
+    {
+      "timestep_id": 26,
+      "timestamp": "2022-07-05T25:00:00Z",
+      "mean_soil_moisture_pct": 91.3,
+      "mean_cape_jkg": 569.0,
+      "mean_ctt_celsius": -33.8
+    },
+    {
+      "timestep_id": 27,
+      "timestamp": "2022-07-05T26:00:00Z",
+      "mean_soil_moisture_pct": 93.5,
+      "mean_cape_jkg": 652.0,
+      "mean_ctt_celsius": -36.2
+    },
+    {
+      "timestep_id": 28,
+      "timestamp": "2022-07-05T27:00:00Z",
+      "mean_soil_moisture_pct": 96.9,
+      "mean_cape_jkg": 548.0,
+      "mean_ctt_celsius": -30.2
+    },
+    {
+      "timestep_id": 29,
+      "timestamp": "2022-07-05T28:00:00Z",
+      "mean_soil_moisture_pct": 96.9,
+      "mean_cape_jkg": 666.0,
+      "mean_ctt_celsius": -32.1
+    },
+    {
+      "timestep_id": 30,
+      "timestamp": "2022-07-05T29:00:00Z",
+      "mean_soil_moisture_pct": 97.9,
+      "mean_cape_jkg": 598.0,
+      "mean_ctt_celsius": -28.5
+    },
+    {
+      "timestep_id": 31,
+      "timestamp": "2022-07-05T30:00:00Z",
+      "mean_soil_moisture_pct": 97.8,
+      "mean_cape_jkg": 986.0,
+      "mean_ctt_celsius": -39.2
+    },
+    {
+      "timestep_id": 32,
+      "timestamp": "2022-07-05T31:00:00Z",
+      "mean_soil_moisture_pct": 98.6,
+      "mean_cape_jkg": 1700.0,
+      "mean_ctt_celsius": -53.7
+    },
+    {
+      "timestep_id": 33,
+      "timestamp": "2022-07-05T32:00:00Z",
+      "mean_soil_moisture_pct": 98.5,
+      "mean_cape_jkg": 1504.0,
+      "mean_ctt_celsius": -49.8
+    },
+    {
+      "timestep_id": 34,
+      "timestamp": "2022-07-05T33:00:00Z",
+      "mean_soil_moisture_pct": 98.8,
+      "mean_cape_jkg": 1102.0,
+      "mean_ctt_celsius": -37.6
+    },
+    {
+      "timestep_id": 35,
+      "timestamp": "2022-07-05T34:00:00Z",
+      "mean_soil_moisture_pct": 98.8,
+      "mean_cape_jkg": 1314.0,
+      "mean_ctt_celsius": -42.7
+    },
+    {
+      "timestep_id": 36,
+      "timestamp": "2022-07-05T35:00:00Z",
+      "mean_soil_moisture_pct": 98.8,
+      "mean_cape_jkg": 1953.0,
+      "mean_ctt_celsius": -56.3
+    },
+    {
+      "timestep_id": 37,
+      "timestamp": "2022-07-05T36:00:00Z",
+      "mean_soil_moisture_pct": 98.8,
+      "mean_cape_jkg": 1318.0,
+      "mean_ctt_celsius": -42.5
+    },
+    {
+      "timestep_id": 38,
+      "timestamp": "2022-07-05T37:00:00Z",
+      "mean_soil_moisture_pct": 98.6,
+      "mean_cape_jkg": 2354.0,
+      "mean_ctt_celsius": -62.7
+    },
+    {
+      "timestep_id": 39,
+      "timestamp": "2022-07-05T38:00:00Z",
+      "mean_soil_moisture_pct": 98.9,
+      "mean_cape_jkg": 1873.0,
+      "mean_ctt_celsius": -58.6
+    },
+    {
+      "timestep_id": 40,
+      "timestamp": "2022-07-05T39:00:00Z",
+      "mean_soil_moisture_pct": 98.9,
+      "mean_cape_jkg": 1876.0,
+      "mean_ctt_celsius": -59.2
+    },
+    {
+      "timestep_id": 41,
+      "timestamp": "2022-07-05T40:00:00Z",
+      "mean_soil_moisture_pct": 98.5,
+      "mean_cape_jkg": 1222.0,
+      "mean_ctt_celsius": -44.3
+    },
+    {
+      "timestep_id": 42,
+      "timestamp": "2022-07-05T41:00:00Z",
+      "mean_soil_moisture_pct": 98.9,
+      "mean_cape_jkg": 973.0,
+      "mean_ctt_celsius": -40.2
+    },
+    {
+      "timestep_id": 43,
+      "timestamp": "2022-07-05T42:00:00Z",
+      "mean_soil_moisture_pct": 98.8,
+      "mean_cape_jkg": 847.0,
+      "mean_ctt_celsius": -39.7
+    },
+    {
+      "timestep_id": 44,
+      "timestamp": "2022-07-05T43:00:00Z",
+      "mean_soil_moisture_pct": 98.9,
+      "mean_cape_jkg": 423.0,
+      "mean_ctt_celsius": -24.2
+    },
+    {
+      "timestep_id": 45,
+      "timestamp": "2022-07-05T44:00:00Z",
+      "mean_soil_moisture_pct": 98.9,
+      "mean_cape_jkg": 556.0,
+      "mean_ctt_celsius": -31.6
+    },
+    {
+      "timestep_id": 46,
+      "timestamp": "2022-07-05T45:00:00Z",
+      "mean_soil_moisture_pct": 99.0,
+      "mean_cape_jkg": 762.0,
+      "mean_ctt_celsius": -42.2
+    },
+    {
+      "timestep_id": 47,
+      "timestamp": "2022-07-05T46:00:00Z",
+      "mean_soil_moisture_pct": 99.0,
+      "mean_cape_jkg": 363.0,
+      "mean_ctt_celsius": -25.2
+    },
+    {
+      "timestep_id": 48,
+      "timestamp": "2022-07-05T47:00:00Z",
+      "mean_soil_moisture_pct": 98.7,
+      "mean_cape_jkg": 245.0,
+      "mean_ctt_celsius": -19.6
+    },
+    {
+      "timestep_id": 49,
+      "timestamp": "2022-07-05T48:00:00Z",
+      "mean_soil_moisture_pct": 98.9,
+      "mean_cape_jkg": 253.0,
+      "mean_ctt_celsius": -20.3
+    },
+    {
+      "timestep_id": 50,
+      "timestamp": "2022-07-05T49:00:00Z",
+      "mean_soil_moisture_pct": 98.8,
+      "mean_cape_jkg": 314.0,
+      "mean_ctt_celsius": -21.9
+    },
+    {
+      "timestep_id": 51,
+      "timestamp": "2022-07-05T50:00:00Z",
+      "mean_soil_moisture_pct": 98.7,
+      "mean_cape_jkg": 300.0,
+      "mean_ctt_celsius": -22.1
+    },
+    {
+      "timestep_id": 52,
+      "timestamp": "2022-07-05T51:00:00Z",
+      "mean_soil_moisture_pct": 98.8,
+      "mean_cape_jkg": 203.0,
+      "mean_ctt_celsius": -17.4
+    },
+    {
+      "timestep_id": 53,
+      "timestamp": "2022-07-05T52:00:00Z",
+      "mean_soil_moisture_pct": 98.6,
+      "mean_cape_jkg": 227.0,
+      "mean_ctt_celsius": -16.3
+    },
+    {
+      "timestep_id": 54,
+      "timestamp": "2022-07-05T53:00:00Z",
+      "mean_soil_moisture_pct": 98.7,
+      "mean_cape_jkg": 231.0,
+      "mean_ctt_celsius": -17.0
+    },
+    {
+      "timestep_id": 55,
+      "timestamp": "2022-07-05T54:00:00Z",
+      "mean_soil_moisture_pct": 99.1,
+      "mean_cape_jkg": 350.0,
+      "mean_ctt_celsius": -19.8
+    },
+    {
+      "timestep_id": 56,
+      "timestamp": "2022-07-05T55:00:00Z",
+      "mean_soil_moisture_pct": 98.9,
+      "mean_cape_jkg": 273.0,
+      "mean_ctt_celsius": -16.0
+    },
+    {
+      "timestep_id": 57,
+      "timestamp": "2022-07-05T56:00:00Z",
+      "mean_soil_moisture_pct": 98.6,
+      "mean_cape_jkg": 271.0,
+      "mean_ctt_celsius": -15.9
+    },
+    {
+      "timestep_id": 58,
+      "timestamp": "2022-07-05T57:00:00Z",
+      "mean_soil_moisture_pct": 98.6,
+      "mean_cape_jkg": 280.0,
+      "mean_ctt_celsius": -15.5
+    },
+    {
+      "timestep_id": 59,
+      "timestamp": "2022-07-05T58:00:00Z",
+      "mean_soil_moisture_pct": 98.8,
+      "mean_cape_jkg": 322.0,
+      "mean_ctt_celsius": -16.5
+    },
+    {
+      "timestep_id": 60,
+      "timestamp": "2022-07-05T59:00:00Z",
+      "mean_soil_moisture_pct": 99.0,
+      "mean_cape_jkg": 301.0,
+      "mean_ctt_celsius": -15.8
+    },
+    {
+      "timestep_id": 61,
+      "timestamp": "2022-07-05T60:00:00Z",
+      "mean_soil_moisture_pct": 98.9,
+      "mean_cape_jkg": 296.0,
+      "mean_ctt_celsius": -16.1
+    },
+    {
+      "timestep_id": 62,
+      "timestamp": "2022-07-05T61:00:00Z",
+      "mean_soil_moisture_pct": 98.6,
+      "mean_cape_jkg": 287.0,
+      "mean_ctt_celsius": -16.4
+    },
+    {
+      "timestep_id": 63,
+      "timestamp": "2022-07-05T62:00:00Z",
+      "mean_soil_moisture_pct": 99.0,
+      "mean_cape_jkg": 270.0,
+      "mean_ctt_celsius": -15.7
+    },
+    {
+      "timestep_id": 64,
+      "timestamp": "2022-07-05T63:00:00Z",
+      "mean_soil_moisture_pct": 98.3,
+      "mean_cape_jkg": 250.0,
+      "mean_ctt_celsius": -15.6
+    },
+    {
+      "timestep_id": 65,
+      "timestamp": "2022-07-05T64:00:00Z",
+      "mean_soil_moisture_pct": 98.2,
+      "mean_cape_jkg": 246.0,
+      "mean_ctt_celsius": -16.0
+    },
+    {
+      "timestep_id": 66,
+      "timestamp": "2022-07-05T65:00:00Z",
+      "mean_soil_moisture_pct": 97.4,
+      "mean_cape_jkg": 219.0,
+      "mean_ctt_celsius": -15.9
+    },
+    {
+      "timestep_id": 67,
+      "timestamp": "2022-07-05T66:00:00Z",
+      "mean_soil_moisture_pct": 96.4,
+      "mean_cape_jkg": 207.0,
+      "mean_ctt_celsius": -16.3
+    },
+    {
+      "timestep_id": 68,
+      "timestamp": "2022-07-05T67:00:00Z",
+      "mean_soil_moisture_pct": 94.7,
+      "mean_cape_jkg": 183.0,
+      "mean_ctt_celsius": -15.9
+    },
+    {
+      "timestep_id": 69,
+      "timestamp": "2022-07-05T68:00:00Z",
+      "mean_soil_moisture_pct": 94.1,
+      "mean_cape_jkg": 165.0,
+      "mean_ctt_celsius": -16.3
+    },
+    {
+      "timestep_id": 70,
+      "timestamp": "2022-07-05T69:00:00Z",
+      "mean_soil_moisture_pct": 82.6,
+      "mean_cape_jkg": 172.0,
+      "mean_ctt_celsius": -15.9
+    },
+    {
+      "timestep_id": 71,
+      "timestamp": "2022-07-05T70:00:00Z",
+      "mean_soil_moisture_pct": 78.0,
+      "mean_cape_jkg": 155.0,
+      "mean_ctt_celsius": -15.8
+    },
+    {
+      "timestep_id": 72,
+      "timestamp": "2022-07-05T71:00:00Z",
+      "mean_soil_moisture_pct": 74.6,
+      "mean_cape_jkg": 163.0,
+      "mean_ctt_celsius": -15.9
+    }
+  ]
+}

@@ -1,0 +1,1652 @@
+[
+  {
+    "text": "Heavy rain in Bandra, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Bandra is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Emergency in Bandra, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Flood water entered houses in Bandra, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Road submerged in Bandra, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Bandra drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Bandra mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Bandra mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Waterlogging in Bandra, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Bridge near Bandra partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Rain has stopped in Bandra, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Bandra roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Checking Bandra, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Bandra is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Water has receded in Bandra, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Normal conditions in Bandra, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Bandra mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "No flooding in Bandra, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Bandra"
+  },
+  {
+    "text": "Traffic jam near Bandra due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Bandra"
+  },
+  {
+    "text": "Great sale at Bandra mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Bandra"
+  },
+  {
+    "text": "Movie screening tonight at Bandra theater",
+    "label": "UNRELATED",
+    "area": "Bandra"
+  },
+  {
+    "text": "Cricket match at Bandra stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Bandra"
+  },
+  {
+    "text": "Heavy rain in Andheri, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Andheri is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Emergency in Andheri, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Flood water entered houses in Andheri, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Road submerged in Andheri, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Andheri drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Andheri mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Andheri mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Waterlogging in Andheri, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Bridge near Andheri partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Rain has stopped in Andheri, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Andheri roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Checking Andheri, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Andheri is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Water has receded in Andheri, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Normal conditions in Andheri, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Andheri mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "No flooding in Andheri, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Andheri"
+  },
+  {
+    "text": "Traffic jam near Andheri due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Andheri"
+  },
+  {
+    "text": "Great sale at Andheri mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Andheri"
+  },
+  {
+    "text": "Movie screening tonight at Andheri theater",
+    "label": "UNRELATED",
+    "area": "Andheri"
+  },
+  {
+    "text": "Cricket match at Andheri stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Andheri"
+  },
+  {
+    "text": "Heavy rain in Kurla, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Kurla is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Emergency in Kurla, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Flood water entered houses in Kurla, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Road submerged in Kurla, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Kurla drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Kurla mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Kurla mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Waterlogging in Kurla, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Bridge near Kurla partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Rain has stopped in Kurla, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Kurla roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Checking Kurla, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Kurla is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Water has receded in Kurla, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Normal conditions in Kurla, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Kurla mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "No flooding in Kurla, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Kurla"
+  },
+  {
+    "text": "Traffic jam near Kurla due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Kurla"
+  },
+  {
+    "text": "Great sale at Kurla mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Kurla"
+  },
+  {
+    "text": "Movie screening tonight at Kurla theater",
+    "label": "UNRELATED",
+    "area": "Kurla"
+  },
+  {
+    "text": "Cricket match at Kurla stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Kurla"
+  },
+  {
+    "text": "Heavy rain in Dadar, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Dadar is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Emergency in Dadar, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Flood water entered houses in Dadar, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Road submerged in Dadar, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Dadar drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Dadar mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Dadar mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Waterlogging in Dadar, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Bridge near Dadar partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Rain has stopped in Dadar, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Dadar roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Checking Dadar, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Dadar is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Water has receded in Dadar, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Normal conditions in Dadar, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Dadar mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "No flooding in Dadar, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dadar"
+  },
+  {
+    "text": "Traffic jam near Dadar due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Dadar"
+  },
+  {
+    "text": "Great sale at Dadar mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Dadar"
+  },
+  {
+    "text": "Movie screening tonight at Dadar theater",
+    "label": "UNRELATED",
+    "area": "Dadar"
+  },
+  {
+    "text": "Cricket match at Dadar stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Dadar"
+  },
+  {
+    "text": "Heavy rain in Lower Parel, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Lower Parel is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Emergency in Lower Parel, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Flood water entered houses in Lower Parel, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Road submerged in Lower Parel, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Lower Parel drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Lower Parel mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Lower Parel mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Waterlogging in Lower Parel, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Bridge near Lower Parel partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Rain has stopped in Lower Parel, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Lower Parel roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Checking Lower Parel, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Lower Parel is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Water has receded in Lower Parel, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Normal conditions in Lower Parel, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Lower Parel mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "No flooding in Lower Parel, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Traffic jam near Lower Parel due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Great sale at Lower Parel mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Movie screening tonight at Lower Parel theater",
+    "label": "UNRELATED",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Cricket match at Lower Parel stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Lower Parel"
+  },
+  {
+    "text": "Heavy rain in Mahalaxmi, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Mahalaxmi is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Emergency in Mahalaxmi, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Flood water entered houses in Mahalaxmi, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Road submerged in Mahalaxmi, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Mahalaxmi drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Mahalaxmi mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Mahalaxmi mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Waterlogging in Mahalaxmi, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Bridge near Mahalaxmi partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Rain has stopped in Mahalaxmi, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Mahalaxmi roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Checking Mahalaxmi, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Mahalaxmi is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Water has receded in Mahalaxmi, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Normal conditions in Mahalaxmi, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Mahalaxmi mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "No flooding in Mahalaxmi, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Traffic jam near Mahalaxmi due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Great sale at Mahalaxmi mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Movie screening tonight at Mahalaxmi theater",
+    "label": "UNRELATED",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Cricket match at Mahalaxmi stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Mahalaxmi"
+  },
+  {
+    "text": "Heavy rain in Worli, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Worli is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Emergency in Worli, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Flood water entered houses in Worli, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Road submerged in Worli, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Worli drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Worli mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Worli mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Waterlogging in Worli, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Bridge near Worli partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Rain has stopped in Worli, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Worli roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Checking Worli, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Worli is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Water has receded in Worli, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Normal conditions in Worli, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Worli mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "No flooding in Worli, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Worli"
+  },
+  {
+    "text": "Traffic jam near Worli due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Worli"
+  },
+  {
+    "text": "Great sale at Worli mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Worli"
+  },
+  {
+    "text": "Movie screening tonight at Worli theater",
+    "label": "UNRELATED",
+    "area": "Worli"
+  },
+  {
+    "text": "Cricket match at Worli stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Worli"
+  },
+  {
+    "text": "Heavy rain in Sion, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Sion is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Emergency in Sion, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Flood water entered houses in Sion, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Road submerged in Sion, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Sion drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Sion mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Sion mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Waterlogging in Sion, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Bridge near Sion partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Rain has stopped in Sion, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Sion roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Checking Sion, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Sion is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Water has receded in Sion, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Normal conditions in Sion, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Sion mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "No flooding in Sion, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Sion"
+  },
+  {
+    "text": "Traffic jam near Sion due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Sion"
+  },
+  {
+    "text": "Great sale at Sion mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Sion"
+  },
+  {
+    "text": "Movie screening tonight at Sion theater",
+    "label": "UNRELATED",
+    "area": "Sion"
+  },
+  {
+    "text": "Cricket match at Sion stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Sion"
+  },
+  {
+    "text": "Heavy rain in Ghatkopar, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Ghatkopar is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Emergency in Ghatkopar, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Flood water entered houses in Ghatkopar, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Road submerged in Ghatkopar, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Ghatkopar drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Ghatkopar mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Ghatkopar mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Waterlogging in Ghatkopar, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Bridge near Ghatkopar partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Rain has stopped in Ghatkopar, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Ghatkopar roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Checking Ghatkopar, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Ghatkopar is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Water has receded in Ghatkopar, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Normal conditions in Ghatkopar, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Ghatkopar mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "No flooding in Ghatkopar, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Traffic jam near Ghatkopar due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Great sale at Ghatkopar mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Movie screening tonight at Ghatkopar theater",
+    "label": "UNRELATED",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Cricket match at Ghatkopar stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Ghatkopar"
+  },
+  {
+    "text": "Heavy rain in Mulund, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Mulund is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Emergency in Mulund, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Flood water entered houses in Mulund, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Road submerged in Mulund, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Mulund drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Mulund mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Mulund mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Waterlogging in Mulund, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Bridge near Mulund partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Rain has stopped in Mulund, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Mulund roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Checking Mulund, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Mulund is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Water has receded in Mulund, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Normal conditions in Mulund, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Mulund mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "No flooding in Mulund, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Mulund"
+  },
+  {
+    "text": "Traffic jam near Mulund due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Mulund"
+  },
+  {
+    "text": "Great sale at Mulund mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Mulund"
+  },
+  {
+    "text": "Movie screening tonight at Mulund theater",
+    "label": "UNRELATED",
+    "area": "Mulund"
+  },
+  {
+    "text": "Cricket match at Mulund stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Mulund"
+  },
+  {
+    "text": "Heavy rain in Thane, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Thane is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Emergency in Thane, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Flood water entered houses in Thane, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Road submerged in Thane, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Thane drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Thane mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Thane mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Waterlogging in Thane, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Bridge near Thane partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Rain has stopped in Thane, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Thane roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Checking Thane, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Thane is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Water has receded in Thane, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Normal conditions in Thane, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Thane mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "No flooding in Thane, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Thane"
+  },
+  {
+    "text": "Traffic jam near Thane due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Thane"
+  },
+  {
+    "text": "Great sale at Thane mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Thane"
+  },
+  {
+    "text": "Movie screening tonight at Thane theater",
+    "label": "UNRELATED",
+    "area": "Thane"
+  },
+  {
+    "text": "Cricket match at Thane stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Thane"
+  },
+  {
+    "text": "Heavy rain in Dharavi, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Dharavi is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Emergency in Dharavi, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Flood water entered houses in Dharavi, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Road submerged in Dharavi, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Dharavi drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Dharavi mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Dharavi mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Waterlogging in Dharavi, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Bridge near Dharavi partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Rain has stopped in Dharavi, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Dharavi roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Checking Dharavi, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Dharavi is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Water has receded in Dharavi, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Normal conditions in Dharavi, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Dharavi mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "No flooding in Dharavi, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Traffic jam near Dharavi due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Great sale at Dharavi mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Movie screening tonight at Dharavi theater",
+    "label": "UNRELATED",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Cricket match at Dharavi stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Dharavi"
+  },
+  {
+    "text": "Heavy rain in Matunga, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Matunga is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Emergency in Matunga, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Flood water entered houses in Matunga, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Road submerged in Matunga, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Matunga drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Matunga mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Matunga mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Waterlogging in Matunga, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Bridge near Matunga partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Rain has stopped in Matunga, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Matunga roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Checking Matunga, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Matunga is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Water has receded in Matunga, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Normal conditions in Matunga, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Matunga mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "No flooding in Matunga, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Matunga"
+  },
+  {
+    "text": "Traffic jam near Matunga due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Matunga"
+  },
+  {
+    "text": "Great sale at Matunga mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Matunga"
+  },
+  {
+    "text": "Movie screening tonight at Matunga theater",
+    "label": "UNRELATED",
+    "area": "Matunga"
+  },
+  {
+    "text": "Cricket match at Matunga stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Matunga"
+  },
+  {
+    "text": "Heavy rain in Powai, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Powai is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Emergency in Powai, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Flood water entered houses in Powai, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Road submerged in Powai, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Powai drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Powai mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Powai mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Waterlogging in Powai, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Bridge near Powai partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Rain has stopped in Powai, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Powai roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Checking Powai, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Powai is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Water has receded in Powai, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Normal conditions in Powai, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Powai mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "No flooding in Powai, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Powai"
+  },
+  {
+    "text": "Traffic jam near Powai due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Powai"
+  },
+  {
+    "text": "Great sale at Powai mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Powai"
+  },
+  {
+    "text": "Movie screening tonight at Powai theater",
+    "label": "UNRELATED",
+    "area": "Powai"
+  },
+  {
+    "text": "Cricket match at Powai stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Powai"
+  },
+  {
+    "text": "Heavy rain in Vikhroli, water on the road, cars stuck",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Vikhroli is completely flooded, water level rising fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Emergency in Vikhroli, people trapped in water, send help",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Flood water entered houses in Vikhroli, very deep water",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Road submerged in Vikhroli, traffic stopped, water flowing fast",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Vikhroli drain overflow, water everywhere, rescue needed",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Paani bahut aa gaya hai Vikhroli mein, gaadi doob gayi",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Vikhroli mein baarish itni tez hai ki sab paani mein hai",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Waterlogging in Vikhroli, underpass completely filled",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Bridge near Vikhroli partially submerged, very dangerous",
+    "label": "CONFIRMS_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Rain has stopped in Vikhroli, water levels going down now",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Vikhroli roads are clear, no waterlogging visible",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Checking Vikhroli, everything looks normal, no flooding",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Vikhroli is fine, just light rain, roads are dry",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Water has receded in Vikhroli, back to normal",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Normal conditions in Vikhroli, no flood reported",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Vikhroli mein paani utar gaya hai, sab thik hai",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "No flooding in Vikhroli, traffic is moving normally",
+    "label": "DENIES_FLOOD_ZONE",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Traffic jam near Vikhroli due to accident, no rain issue",
+    "label": "UNRELATED",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Great sale at Vikhroli mall today, 50% off everything",
+    "label": "UNRELATED",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Movie screening tonight at Vikhroli theater",
+    "label": "UNRELATED",
+    "area": "Vikhroli"
+  },
+  {
+    "text": "Cricket match at Vikhroli stadium tomorrow",
+    "label": "UNRELATED",
+    "area": "Vikhroli"
+  }
+]

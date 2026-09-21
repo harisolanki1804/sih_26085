@@ -1,0 +1,75 @@
+{
+  "region_code": "IN-MH-BOM-01",
+  "name": "Mumbai Central & Mithi River Basin",
+  "description": "High-density urban flood hotspot encompassing the Mithi River catchment, Kurla junction, Dadar-Hindmata depression, Bandra-Kurla Complex (BKC), Sion lowlands, and Andheri subway corridors.",
+  "bbox": {
+    "lat_min": 18.980,
+    "lat_max": 19.160,
+    "lon_min": 72.800,
+    "lon_max": 72.960
+  },
+  "center": {
+    "lat": 19.070,
+    "lon": 72.880
+  },
+  "grid_resolution_deg": 0.02,
+  "grid_dimensions": {
+    "lat_steps": 10,
+    "lon_steps": 9,
+    "total_cells": 90
+  },
+  "area_sqkm": 240.5,
+  "avg_drainage_capacity_mm_hr": 25.0,
+  "high_tide_threshold_m": 4.5,
+  "critical_hotspots": [
+    {
+      "name": "Hindmata - Dadar TT Circle",
+      "lat": 19.018,
+      "lon": 72.843,
+      "base_elevation_m": 3.2,
+      "vulnerability": "Extreme depression bowl; tidal lock vulnerable"
+    },
+    {
+      "name": "Kurla West - LBS Marg & Station",
+      "lat": 19.066,
+      "lon": 72.879,
+      "base_elevation_m": 4.5,
+      "vulnerability": "Mithi river overflow confluence & dense rail/road junction"
+    },
+    {
+      "name": "Bandra-Kurla Complex (BKC) Outfall",
+      "lat": 19.060,
+      "lon": 72.864,
+      "base_elevation_m": 5.0,
+      "vulnerability": "Commercial hub; Vakola nullah discharge"
+    },
+    {
+      "name": "Sion Circle & Gandhi Market",
+      "lat": 19.037,
+      "lon": 72.861,
+      "base_elevation_m": 3.8,
+      "vulnerability": "Low-lying arterial highway underpass"
+    },
+    {
+      "name": "Andheri Subway & SV Road",
+      "lat": 19.120,
+      "lon": 72.846,
+      "base_elevation_m": 6.1,
+      "vulnerability": "Micro-depression subway prone to rapid flash-flooding"
+    },
+    {
+      "name": "Mahim Bay & Mithi River Outfall",
+      "lat": 19.040,
+      "lon": 72.839,
+      "base_elevation_m": 1.2,
+      "vulnerability": "Tidal discharge lock during high spring tides"
+    },
+    {
+      "name": "Santacruz Airport Catchment",
+      "lat": 19.090,
+      "lon": 72.855,
+      "base_elevation_m": 7.5,
+      "vulnerability": "High surface runoff generation into Vakola drainage"
+    }
+  ]
+}

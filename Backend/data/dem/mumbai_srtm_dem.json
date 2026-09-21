@@ -1,0 +1,915 @@
+{
+  "dataset_title": "SRTM 30m Digital Elevation Model (Topographical Baseline)",
+  "provenance": "NASA SRTM 1-arc-sec via OpenTopography / Open-Meteo Elevation API",
+  "region_code": "IN-MH-BOM-01",
+  "projection": "EPSG:4326 (WGS84)",
+  "resolution_deg": 0.02,
+  "total_cells": 90,
+  "elevation_stats": {
+    "min_m": 0.0,
+    "max_m": 35.5,
+    "avg_m": 15.58
+  },
+  "cells": [
+    {
+      "cell_index": 0,
+      "lat": 18.899,
+      "lon": 72.7922,
+      "elevation_m": 0.2,
+      "slope_deg": 4.4,
+      "drainage_outfall_dist_m": 2378.0,
+      "runoff_coefficient": 0.59,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 1,
+      "lat": 18.899,
+      "lon": 72.8167,
+      "elevation_m": 3.7,
+      "slope_deg": 2.1,
+      "drainage_outfall_dist_m": 5750.0,
+      "runoff_coefficient": 0.45,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 2,
+      "lat": 18.899,
+      "lon": 72.8411,
+      "elevation_m": 5.8,
+      "slope_deg": 3.7,
+      "drainage_outfall_dist_m": 7281.0,
+      "runoff_coefficient": 0.62,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 3,
+      "lat": 18.899,
+      "lon": 72.8656,
+      "elevation_m": 12.5,
+      "slope_deg": 1.1,
+      "drainage_outfall_dist_m": 4900.0,
+      "runoff_coefficient": 0.59,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 4,
+      "lat": 18.899,
+      "lon": 72.89,
+      "elevation_m": 15.9,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 13059.0,
+      "runoff_coefficient": 0.56,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 5,
+      "lat": 18.899,
+      "lon": 72.9144,
+      "elevation_m": 22.2,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 1708.0,
+      "runoff_coefficient": 0.36,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 6,
+      "lat": 18.899,
+      "lon": 72.9389,
+      "elevation_m": 24.2,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 13969.0,
+      "runoff_coefficient": 0.49,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 7,
+      "lat": 18.899,
+      "lon": 72.9633,
+      "elevation_m": 23.4,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 3328.0,
+      "runoff_coefficient": 0.21,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 8,
+      "lat": 18.899,
+      "lon": 72.9878,
+      "elevation_m": 33.0,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 1821.0,
+      "runoff_coefficient": 0.28,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 9,
+      "lat": 18.937,
+      "lon": 72.7922,
+      "elevation_m": 0.3,
+      "slope_deg": 2.4,
+      "drainage_outfall_dist_m": 14794.0,
+      "runoff_coefficient": 0.77,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 10,
+      "lat": 18.937,
+      "lon": 72.8167,
+      "elevation_m": 0.4,
+      "slope_deg": 1.7,
+      "drainage_outfall_dist_m": 6922.0,
+      "runoff_coefficient": 0.71,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 11,
+      "lat": 18.937,
+      "lon": 72.8411,
+      "elevation_m": 9.5,
+      "slope_deg": 3.0,
+      "drainage_outfall_dist_m": 14936.0,
+      "runoff_coefficient": 0.49,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 12,
+      "lat": 18.937,
+      "lon": 72.8656,
+      "elevation_m": 13.3,
+      "slope_deg": 1.2,
+      "drainage_outfall_dist_m": 5154.0,
+      "runoff_coefficient": 0.51,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 13,
+      "lat": 18.937,
+      "lon": 72.89,
+      "elevation_m": 17.1,
+      "slope_deg": 0.8,
+      "drainage_outfall_dist_m": 9109.0,
+      "runoff_coefficient": 0.43,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 14,
+      "lat": 18.937,
+      "lon": 72.9144,
+      "elevation_m": 18.4,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 9178.0,
+      "runoff_coefficient": 0.45,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 15,
+      "lat": 18.937,
+      "lon": 72.9389,
+      "elevation_m": 20.8,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 12938.0,
+      "runoff_coefficient": 0.4,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 16,
+      "lat": 18.937,
+      "lon": 72.9633,
+      "elevation_m": 21.4,
+      "slope_deg": 0.2,
+      "drainage_outfall_dist_m": 3602.0,
+      "runoff_coefficient": 0.45,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 17,
+      "lat": 18.937,
+      "lon": 72.9878,
+      "elevation_m": 30.4,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 10453.0,
+      "runoff_coefficient": 0.29,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 18,
+      "lat": 18.975,
+      "lon": 72.7922,
+      "elevation_m": 0.0,
+      "slope_deg": 1.6,
+      "drainage_outfall_dist_m": 4447.0,
+      "runoff_coefficient": 0.82,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 19,
+      "lat": 18.975,
+      "lon": 72.8167,
+      "elevation_m": 1.8,
+      "slope_deg": 3.3,
+      "drainage_outfall_dist_m": 9671.0,
+      "runoff_coefficient": 0.79,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 20,
+      "lat": 18.975,
+      "lon": 72.8411,
+      "elevation_m": 8.3,
+      "slope_deg": 1.6,
+      "drainage_outfall_dist_m": 14086.0,
+      "runoff_coefficient": 0.51,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 21,
+      "lat": 18.975,
+      "lon": 72.8656,
+      "elevation_m": 6.6,
+      "slope_deg": 1.0,
+      "drainage_outfall_dist_m": 11027.0,
+      "runoff_coefficient": 0.56,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 22,
+      "lat": 18.975,
+      "lon": 72.89,
+      "elevation_m": 17.7,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 5200.0,
+      "runoff_coefficient": 0.37,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 23,
+      "lat": 18.975,
+      "lon": 72.9144,
+      "elevation_m": 21.4,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 11526.0,
+      "runoff_coefficient": 0.49,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 24,
+      "lat": 18.975,
+      "lon": 72.9389,
+      "elevation_m": 20.6,
+      "slope_deg": 0.2,
+      "drainage_outfall_dist_m": 14945.0,
+      "runoff_coefficient": 0.15,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 25,
+      "lat": 18.975,
+      "lon": 72.9633,
+      "elevation_m": 26.8,
+      "slope_deg": 0.2,
+      "drainage_outfall_dist_m": 3984.0,
+      "runoff_coefficient": 0.42,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 26,
+      "lat": 18.975,
+      "lon": 72.9878,
+      "elevation_m": 34.3,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 13310.0,
+      "runoff_coefficient": 0.39,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 27,
+      "lat": 19.013,
+      "lon": 72.7922,
+      "elevation_m": 0.0,
+      "slope_deg": 2.3,
+      "drainage_outfall_dist_m": 3208.0,
+      "runoff_coefficient": 0.63,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 28,
+      "lat": 19.013,
+      "lon": 72.8167,
+      "elevation_m": 6.5,
+      "slope_deg": 3.4,
+      "drainage_outfall_dist_m": 14821.0,
+      "runoff_coefficient": 0.58,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 29,
+      "lat": 19.013,
+      "lon": 72.8411,
+      "elevation_m": 11.4,
+      "slope_deg": 1.8,
+      "drainage_outfall_dist_m": 1110.0,
+      "runoff_coefficient": 0.44,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 30,
+      "lat": 19.013,
+      "lon": 72.8656,
+      "elevation_m": 3.0,
+      "slope_deg": 4.2,
+      "drainage_outfall_dist_m": 14145.0,
+      "runoff_coefficient": 0.62,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 31,
+      "lat": 19.013,
+      "lon": 72.89,
+      "elevation_m": 3.4,
+      "slope_deg": 0.8,
+      "drainage_outfall_dist_m": 2616.0,
+      "runoff_coefficient": 0.77,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 32,
+      "lat": 19.013,
+      "lon": 72.9144,
+      "elevation_m": 18.0,
+      "slope_deg": 0.2,
+      "drainage_outfall_dist_m": 9468.0,
+      "runoff_coefficient": 0.4,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 33,
+      "lat": 19.013,
+      "lon": 72.9389,
+      "elevation_m": 23.6,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 3850.0,
+      "runoff_coefficient": 0.36,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 34,
+      "lat": 19.013,
+      "lon": 72.9633,
+      "elevation_m": 27.5,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 13675.0,
+      "runoff_coefficient": 0.33,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 35,
+      "lat": 19.013,
+      "lon": 72.9878,
+      "elevation_m": 35.5,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 2292.0,
+      "runoff_coefficient": 0.32,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 36,
+      "lat": 19.051,
+      "lon": 72.7922,
+      "elevation_m": 0.0,
+      "slope_deg": 2.7,
+      "drainage_outfall_dist_m": 11796.0,
+      "runoff_coefficient": 0.7,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 37,
+      "lat": 19.051,
+      "lon": 72.8167,
+      "elevation_m": 0.0,
+      "slope_deg": 3.9,
+      "drainage_outfall_dist_m": 4667.0,
+      "runoff_coefficient": 0.71,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 38,
+      "lat": 19.051,
+      "lon": 72.8411,
+      "elevation_m": 5.0,
+      "slope_deg": 3.4,
+      "drainage_outfall_dist_m": 1135.0,
+      "runoff_coefficient": 0.55,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 39,
+      "lat": 19.051,
+      "lon": 72.8656,
+      "elevation_m": 13.9,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 13363.0,
+      "runoff_coefficient": 0.49,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 40,
+      "lat": 19.051,
+      "lon": 72.89,
+      "elevation_m": 14.3,
+      "slope_deg": 1.6,
+      "drainage_outfall_dist_m": 9155.0,
+      "runoff_coefficient": 0.36,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 41,
+      "lat": 19.051,
+      "lon": 72.9144,
+      "elevation_m": 14.6,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 2784.0,
+      "runoff_coefficient": 0.46,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 42,
+      "lat": 19.051,
+      "lon": 72.9389,
+      "elevation_m": 23.0,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 13050.0,
+      "runoff_coefficient": 0.51,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 43,
+      "lat": 19.051,
+      "lon": 72.9633,
+      "elevation_m": 28.3,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 3941.0,
+      "runoff_coefficient": 0.24,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 44,
+      "lat": 19.051,
+      "lon": 72.9878,
+      "elevation_m": 30.7,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 13378.0,
+      "runoff_coefficient": 0.4,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 45,
+      "lat": 19.089,
+      "lon": 72.7922,
+      "elevation_m": 2.4,
+      "slope_deg": 2.3,
+      "drainage_outfall_dist_m": 9689.0,
+      "runoff_coefficient": 0.75,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 46,
+      "lat": 19.089,
+      "lon": 72.8167,
+      "elevation_m": 0.9,
+      "slope_deg": 1.1,
+      "drainage_outfall_dist_m": 14667.0,
+      "runoff_coefficient": 0.83,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 47,
+      "lat": 19.089,
+      "lon": 72.8411,
+      "elevation_m": 11.1,
+      "slope_deg": 2.2,
+      "drainage_outfall_dist_m": 13340.0,
+      "runoff_coefficient": 0.48,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 48,
+      "lat": 19.089,
+      "lon": 72.8656,
+      "elevation_m": 14.3,
+      "slope_deg": 0.2,
+      "drainage_outfall_dist_m": 14031.0,
+      "runoff_coefficient": 0.5,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 49,
+      "lat": 19.089,
+      "lon": 72.89,
+      "elevation_m": 18.2,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 13097.0,
+      "runoff_coefficient": 0.39,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 50,
+      "lat": 19.089,
+      "lon": 72.9144,
+      "elevation_m": 22.1,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 2513.0,
+      "runoff_coefficient": 0.39,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 51,
+      "lat": 19.089,
+      "lon": 72.9389,
+      "elevation_m": 20.0,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 13020.0,
+      "runoff_coefficient": 0.57,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 52,
+      "lat": 19.089,
+      "lon": 72.9633,
+      "elevation_m": 29.1,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 5273.0,
+      "runoff_coefficient": 0.35,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 53,
+      "lat": 19.089,
+      "lon": 72.9878,
+      "elevation_m": 32.6,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 4186.0,
+      "runoff_coefficient": 0.18,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 54,
+      "lat": 19.127,
+      "lon": 72.7922,
+      "elevation_m": 1.9,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 13101.0,
+      "runoff_coefficient": 0.7,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 55,
+      "lat": 19.127,
+      "lon": 72.8167,
+      "elevation_m": 2.2,
+      "slope_deg": 5.2,
+      "drainage_outfall_dist_m": 4908.0,
+      "runoff_coefficient": 0.74,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 56,
+      "lat": 19.127,
+      "lon": 72.8411,
+      "elevation_m": 8.1,
+      "slope_deg": 2.4,
+      "drainage_outfall_dist_m": 8507.0,
+      "runoff_coefficient": 0.41,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 57,
+      "lat": 19.127,
+      "lon": 72.8656,
+      "elevation_m": 13.0,
+      "slope_deg": 2.0,
+      "drainage_outfall_dist_m": 2615.0,
+      "runoff_coefficient": 0.66,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 58,
+      "lat": 19.127,
+      "lon": 72.89,
+      "elevation_m": 18.1,
+      "slope_deg": 0.6,
+      "drainage_outfall_dist_m": 4717.0,
+      "runoff_coefficient": 0.55,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 59,
+      "lat": 19.127,
+      "lon": 72.9144,
+      "elevation_m": 18.1,
+      "slope_deg": 0.2,
+      "drainage_outfall_dist_m": 7084.0,
+      "runoff_coefficient": 0.64,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 60,
+      "lat": 19.127,
+      "lon": 72.9389,
+      "elevation_m": 20.7,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 8160.0,
+      "runoff_coefficient": 0.38,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 61,
+      "lat": 19.127,
+      "lon": 72.9633,
+      "elevation_m": 24.4,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 9072.0,
+      "runoff_coefficient": 0.48,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 62,
+      "lat": 19.127,
+      "lon": 72.9878,
+      "elevation_m": 31.3,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 13958.0,
+      "runoff_coefficient": 0.28,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 63,
+      "lat": 19.165,
+      "lon": 72.7922,
+      "elevation_m": 3.0,
+      "slope_deg": 2.8,
+      "drainage_outfall_dist_m": 11072.0,
+      "runoff_coefficient": 0.66,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 64,
+      "lat": 19.165,
+      "lon": 72.8167,
+      "elevation_m": 1.9,
+      "slope_deg": 4.1,
+      "drainage_outfall_dist_m": 1980.0,
+      "runoff_coefficient": 0.64,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 65,
+      "lat": 19.165,
+      "lon": 72.8411,
+      "elevation_m": 9.5,
+      "slope_deg": 2.2,
+      "drainage_outfall_dist_m": 5623.0,
+      "runoff_coefficient": 0.51,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 66,
+      "lat": 19.165,
+      "lon": 72.8656,
+      "elevation_m": 11.8,
+      "slope_deg": 0.9,
+      "drainage_outfall_dist_m": 5205.0,
+      "runoff_coefficient": 0.62,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 67,
+      "lat": 19.165,
+      "lon": 72.89,
+      "elevation_m": 18.7,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 6718.0,
+      "runoff_coefficient": 0.35,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 68,
+      "lat": 19.165,
+      "lon": 72.9144,
+      "elevation_m": 23.2,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 6886.0,
+      "runoff_coefficient": 0.38,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 69,
+      "lat": 19.165,
+      "lon": 72.9389,
+      "elevation_m": 22.0,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 10482.0,
+      "runoff_coefficient": 0.45,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 70,
+      "lat": 19.165,
+      "lon": 72.9633,
+      "elevation_m": 25.0,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 8671.0,
+      "runoff_coefficient": 0.32,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 71,
+      "lat": 19.165,
+      "lon": 72.9878,
+      "elevation_m": 33.8,
+      "slope_deg": 0.2,
+      "drainage_outfall_dist_m": 5017.0,
+      "runoff_coefficient": 0.2,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 72,
+      "lat": 19.203,
+      "lon": 72.7922,
+      "elevation_m": 1.1,
+      "slope_deg": 2.6,
+      "drainage_outfall_dist_m": 7510.0,
+      "runoff_coefficient": 0.58,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 73,
+      "lat": 19.203,
+      "lon": 72.8167,
+      "elevation_m": 0.0,
+      "slope_deg": 2.8,
+      "drainage_outfall_dist_m": 3992.0,
+      "runoff_coefficient": 0.64,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 74,
+      "lat": 19.203,
+      "lon": 72.8411,
+      "elevation_m": 11.0,
+      "slope_deg": 1.4,
+      "drainage_outfall_dist_m": 3376.0,
+      "runoff_coefficient": 0.67,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 75,
+      "lat": 19.203,
+      "lon": 72.8656,
+      "elevation_m": 14.6,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 8216.0,
+      "runoff_coefficient": 0.42,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 76,
+      "lat": 19.203,
+      "lon": 72.89,
+      "elevation_m": 15.2,
+      "slope_deg": 1.0,
+      "drainage_outfall_dist_m": 11516.0,
+      "runoff_coefficient": 0.42,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 77,
+      "lat": 19.203,
+      "lon": 72.9144,
+      "elevation_m": 21.3,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 4145.0,
+      "runoff_coefficient": 0.54,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 78,
+      "lat": 19.203,
+      "lon": 72.9389,
+      "elevation_m": 24.2,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 7652.0,
+      "runoff_coefficient": 0.44,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 79,
+      "lat": 19.203,
+      "lon": 72.9633,
+      "elevation_m": 28.0,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 2020.0,
+      "runoff_coefficient": 0.34,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 80,
+      "lat": 19.203,
+      "lon": 72.9878,
+      "elevation_m": 33.1,
+      "slope_deg": 0.3,
+      "drainage_outfall_dist_m": 10749.0,
+      "runoff_coefficient": 0.22,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 81,
+      "lat": 19.241,
+      "lon": 72.7922,
+      "elevation_m": 4.8,
+      "slope_deg": 2.4,
+      "drainage_outfall_dist_m": 4416.0,
+      "runoff_coefficient": 0.6,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 82,
+      "lat": 19.241,
+      "lon": 72.8167,
+      "elevation_m": 2.3,
+      "slope_deg": 3.6,
+      "drainage_outfall_dist_m": 11781.0,
+      "runoff_coefficient": 0.8,
+      "is_depression_bowl": true
+    },
+    {
+      "cell_index": 83,
+      "lat": 19.241,
+      "lon": 72.8411,
+      "elevation_m": 12.1,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 6952.0,
+      "runoff_coefficient": 0.54,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 84,
+      "lat": 19.241,
+      "lon": 72.8656,
+      "elevation_m": 13.7,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 1703.0,
+      "runoff_coefficient": 0.61,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 85,
+      "lat": 19.241,
+      "lon": 72.89,
+      "elevation_m": 16.8,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 12877.0,
+      "runoff_coefficient": 0.45,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 86,
+      "lat": 19.241,
+      "lon": 72.9144,
+      "elevation_m": 17.5,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 14830.0,
+      "runoff_coefficient": 0.5,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 87,
+      "lat": 19.241,
+      "lon": 72.9389,
+      "elevation_m": 22.1,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 14301.0,
+      "runoff_coefficient": 0.29,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 88,
+      "lat": 19.241,
+      "lon": 72.9633,
+      "elevation_m": 29.0,
+      "slope_deg": 0.5,
+      "drainage_outfall_dist_m": 8067.0,
+      "runoff_coefficient": 0.22,
+      "is_depression_bowl": false
+    },
+    {
+      "cell_index": 89,
+      "lat": 19.241,
+      "lon": 72.9878,
+      "elevation_m": 29.5,
+      "slope_deg": 0.4,
+      "drainage_outfall_dist_m": 8670.0,
+      "runoff_coefficient": 0.22,
+      "is_depression_bowl": false
+    }
+  ]
+}

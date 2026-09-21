@@ -1,0 +1,9 @@
+{
+  "severity_residual_scale": 70.0,
+  "depth_residual_scale": 90.0,
+  "baseline": "SCS-CN + Manning (app/services/physics/pinn_risk_model.py)",
+  "form": "y_hat = physics_baseline + neural_residual",
+  "physics_baseline_r2_severity": 0.5955,
+  "physics_baseline_r2_depth": 0.1584,
+  "trained_on_timesteps": 72
+}

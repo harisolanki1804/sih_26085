@@ -1,0 +1,25 @@
+{
+  "source": "ECMWF ERA5-Land Reanalysis (Surface & Sub-surface Soil Water)",
+  "region": "Mumbai Pilot",
+  "coordinates": {
+    "latitude": 19.07,
+    "longitude": 72.88
+  },
+  "time_window": {
+    "start": "2022-07-05T00:00",
+    "end": "2022-07-07T23:00"
+  },
+  "records_count": 72,
+  "layers": [
+    {
+      "name": "soil_moisture_0_to_7cm",
+      "unit": "m\u00b3/m\u00b3",
+      "description": "Surface soil moisture"
+    },
+    {
+      "name": "soil_moisture_7_to_28cm",
+      "unit": "m\u00b3/m\u00b3",
+      "description": "Root zone soil moisture"
+    }
+  ]
+}

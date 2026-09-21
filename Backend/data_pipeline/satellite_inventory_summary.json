@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-09-16T13:55:30.773110",
+  "window": {
+    "start": "2022-07-05T00:00:00",
+    "end": "2022-07-07T23:00:00",
+    "step_minutes": 30
+  },
+  "bounding_box": "72.80,18.90,73.10,19.30",
+  "credentials_present": true,
+  "products_requested": [
+    "3DIMG_L2B_CTP",
+    "3DIMG_L2G_WDP",
+    "3DIMG_L2B_UTH",
+    "3DIMG_L2B_HEM",
+    "3DIMG_L2B_CMK"
+  ],
+  "requested_l2_products": [
+    "3DIMG_L2B_CTP",
+    "3DIMG_L2G_WDP",
+    "3DIMG_L2B_UTH",
+    "3DIMG_L2B_HEM",
+    "3DIMG_L2B_CMK"
+  ],
+  "available_imagery_products": [
+    "3RIMG_L1C_SGP",
+    "3SIMG_L1B_STD",
+    "3RIMG_L1B_STD"
+  ],
+  "days_searched": 3,
+  "manifest_granularity": "per_granule",
+  "entries": 900,
+  "entries_available": 900,
+  "usable_by_product": {
+    "3DIMG_L2B_CTP": 180,
+    "3DIMG_L2G_WDP": 180,
+    "3DIMG_L2B_UTH": 180,
+    "3DIMG_L2B_HEM": 180,
+    "3DIMG_L2B_CMK": 180
+  },
+  "coverage_pct": 100.0,
+  "status_counts": {
+    "available": 900
+  },
+  "first_error": null,
+  "interpretation": "COVERAGE_CONFIRMED"
+}

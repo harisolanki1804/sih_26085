@@ -1,0 +1,37 @@
+{
+  "channels": [
+    "rainfall_1h_mm",
+    "rainfall_3h_mm",
+    "rainfall_24h_mm",
+    "soil_moisture_pct",
+    "iwv_mm",
+    "cape_instability_jkg",
+    "cloud_top_temp_celsius",
+    "vertical_wind_shear_ms"
+  ],
+  "mean": [
+    5.617248058319092,
+    14.053014755249023,
+    39.23702621459961,
+    39.96840286254883,
+    31.01626968383789,
+    266.50079345703125,
+    -17.355974197387695,
+    5.645994663238525
+  ],
+  "std": [
+    10.522453308105469,
+    19.346742630004883,
+    37.302642822265625,
+    17.389135360717773,
+    7.49791145324707,
+    116.49771118164062,
+    5.199064254760742,
+    2.5548439025878906
+  ],
+  "window": 6,
+  "horizon": 6,
+  "target": "residual_over_trend_baseline",
+  "trend_relax_hours": 2.0,
+  "fit_partition": "train 1-32"
+}

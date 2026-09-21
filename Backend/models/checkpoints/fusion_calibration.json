@@ -1,0 +1,11 @@
+{
+  "agreement_anomaly_threshold": 0.337,
+  "percentile": 10.0,
+  "n_calibration_samples": 6,
+  "calibration_min": 0.323,
+  "calibration_max": 0.407,
+  "calibration_median": 0.362,
+  "source": "calibration window",
+  "method": "lowest 10th percentile of global_agreement_score on the calibration window; 'anomalous' means materially less agreement than is typical for this event",
+  "calibration_timesteps": "33-38"
+}
